@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["opencascade.js"],
   },
-  plugins: [react()],
+  plugins: [wasm(), react()],
 });
